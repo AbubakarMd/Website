@@ -103,24 +103,22 @@ const Testimonials = () => {
         </div>
 
         {/* Stats Section */}
-        <div className={`mt-16 grid grid-cols-2 md:grid-cols-4 gap-8 transition-all duration-1000 delay-600 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-          <div className="text-center">
-            <div className="text-3xl md:text-4xl font-bold text-primary mb-2">50+</div>
-            <div className="text-muted-foreground">Happy Clients</div>
-          </div>
-          <div className="text-center">
-            <div className="text-3xl md:text-4xl font-bold text-primary mb-2">100+</div>
-            <div className="text-muted-foreground">Projects Completed</div>
-          </div>
-          <div className="text-center">
-            <div className="text-3xl md:text-4xl font-bold text-primary mb-2">5+</div>
-            <div className="text-muted-foreground">Years Experience</div>
-          </div>
-          <div className="text-center">
-            <div className="text-3xl md:text-4xl font-bold text-primary mb-2">15+</div>
-            <div className="text-muted-foreground">Awards Won</div>
-          </div>
-        </div>
+        {/* Stats Section */}
+<div className={`mt-16 flex justify-center gap-16 transition-all duration-1000 delay-600 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
+  <div className="text-center">
+    <div className="text-3xl md:text-4xl font-bold text-primary mb-2">20+</div>
+    <div className="text-muted-foreground">Happy Clients</div>
+  </div>
+  <div className="text-center">
+    <div className="text-3xl md:text-4xl font-bold text-primary mb-2">60+</div>
+    <div className="text-muted-foreground">Projects Completed</div>
+  </div>
+  <div className="text-center">
+    <div className="text-3xl md:text-4xl font-bold text-primary mb-2">3+</div>
+    <div className="text-muted-foreground">Years Experience</div>
+  </div>
+</div>
+
       </div>
     </section>
   );

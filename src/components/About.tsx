@@ -100,17 +100,17 @@ const About = () => {
                   
                   <div className="flex justify-center gap-4 pt-4">
                     <div className="text-center">
-                      <div className="text-2xl font-bold text-primary">50+</div>
+                      <div className="text-2xl font-bold text-primary">60+</div>
                       <div className="text-sm text-muted-foreground">Projects</div>
                     </div>
                     <div className="w-px bg-border mx-4"></div>
                     <div className="text-center">
-                      <div className="text-2xl font-bold text-primary">5+</div>
+                      <div className="text-2xl font-bold text-primary">3+</div>
                       <div className="text-sm text-muted-foreground">Years</div>
                     </div>
                     <div className="w-px bg-border mx-4"></div>
                     <div className="text-center">
-                      <div className="text-2xl font-bold text-primary">30+</div>
+                      <div className="text-2xl font-bold text-primary">20+</div>
                       <div className="text-sm text-muted-foreground">Clients</div>
                     </div>
                   </div>
