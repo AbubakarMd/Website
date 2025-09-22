@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
+import about from "@/assets/about-me.png";
 
 const About = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -77,7 +78,16 @@ const About = () => {
             <Card className="shadow-elegant border-0 bg-gradient-to-br from-white to-secondary/5">
               <CardContent className="p-8">
                 <div className="text-center mb-6">
-                  <div className="w-32 h-32 bg-gradient-to-br from-primary to-secondary rounded-full mx-auto mb-4 shadow-glow animate-float"></div>
+                  {/* Circle with gradient border and image inside */}
+                  <div className="w-32 h-32 rounded-full p-1 mx-auto mb-4 bg-gradient-to-br from-primary to-secondary shadow-glow animate-float">
+                    <div className="w-full h-full rounded-full overflow-hidden">
+                      <img
+                        src={about}
+                        alt="Abu"
+                        className="w-full h-full object-cover"
+                      />
+                    </div>
+                  </div>
                   <h3 className="text-2xl font-bold text-primary">Abu</h3>
                   <p className="text-secondary font-medium">Graphic Designer</p>
                 </div>

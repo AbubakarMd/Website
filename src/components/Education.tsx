@@ -46,7 +46,7 @@ const Education = () => {
             <span className="text-gradient">Education</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            My educational background in design
+            My educational background
           </p>
         </div>
 
