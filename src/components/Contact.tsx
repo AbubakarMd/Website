@@ -50,18 +50,17 @@ const Contact = () => {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch("/api/email", {
+      const response = await fetch("https://sheetdb.io/api/v1/nem9rfe30ny03", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData)
+        body: JSON.stringify({ data: formData }) // SheetDB expects { "data": [...] }
       });
 
-      const data = await response.json();
       if (response.ok) {
         alert("Message sent successfully!");
         setFormData({ name: "", email: "", message: "" });
       } else {
-        alert("Failed to send message: " + data.message);
+        alert("Failed to send message. Please try again.");
       }
     } catch (error: any) {
       alert("Error sending message: " + error.message);
@@ -283,7 +282,7 @@ const Contact = () => {
                 </form>
 
                 <p className="text-xs md:text-sm text-muted-foreground text-center mt-4">
-                  Your message will be sent directly to my email for a faster response
+                  Your message will be stored directly in Google Sheets
                 </p>
               </CardContent>
             </Card>

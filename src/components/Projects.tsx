@@ -3,6 +3,12 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { ExternalLink, Eye, Calendar, Tag } from "lucide-react";
+import Project1 from "@/assets/projects/project1.png";
+import Project2 from "@/assets/projects/project2.png";
+import Project3 from "@/assets/projects/project3.png";
+import Project4 from "@/assets/projects/project4.png";
+import Project5 from "@/assets/projects/project5.png";
+import Project6 from "@/assets/projects/project6.png";
 
 const Projects = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -34,7 +40,7 @@ const Projects = () => {
       year: "2024",
       description: "Complete brand identity design for a tech startup including logo, color palette, and brand guidelines.",
       fullDescription: "This comprehensive brand identity project involved creating a modern, memorable brand for a fintech startup. The project included extensive market research, competitor analysis, logo design iterations, color psychology application, typography selection, and comprehensive brand guidelines. The final identity successfully positioned the company as trustworthy yet innovative in the competitive fintech space.",
-      image: "https://i.ibb.co/jPKNwz8D/digita-logomockup.png",
+      image: Project1,
       tools: ["Adobe Illustrator", "Figma", "Photoshop"],
       client: "TechStart Inc.",
       duration: "6 weeks"
@@ -46,7 +52,7 @@ const Projects = () => {
       year: "2024",
       description: "Modern e-commerce platform design with focus on user experience and conversion optimization.",
       fullDescription: "Designed a complete e-commerce experience for a fashion retailer, focusing on mobile-first approach and conversion optimization. The project involved user journey mapping, wireframing, prototyping, and creating a design system that increased conversion rates by 35%. Special attention was paid to product photography guidelines and checkout flow optimization.",
-      image: "https://i.ibb.co/DDZCCZXn/Whats-App-Image-2024-12-09-at-22-03-19-6f0be7a8.jpg",
+      image: Project2,
       tools: ["Figma", "Adobe XD", "Principle"],
       client: "Fashion Forward",
       duration: "8 weeks"
@@ -94,7 +100,7 @@ const Projects = () => {
       year: "2022",
       description: "Complete visual identity for a premium restaurant including menu design and interior graphics.",
       fullDescription: "Designed a complete brand identity for a farm-to-table restaurant, including logo design, menu layouts, signage, packaging, and interior graphics. The design emphasized the restaurant's commitment to sustainability and local sourcing through earthy colors and organic shapes. The rebrand resulted in a 40% increase in customer visits and positive media coverage.",
-      image: "https://i.ibb.co/3mvKqx7W/push2.png",
+      image: Project6,
       tools: ["Illustrator", "InDesign", "Photoshop"],
       client: "Green Table Restaurant",
       duration: "12 weeks"
