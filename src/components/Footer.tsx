@@ -21,7 +21,7 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="lg:col-span-1">
             <h3 className="text-3xl font-bold mb-4">
-              Abu
+              Md Abubakar
               <span className="block text-secondary text-lg font-medium">Creative Director</span>
             </h3>
             <p className="text-white/80 leading-relaxed mb-6">
@@ -99,11 +99,9 @@ const Footer = () => {
         <div className="border-t border-white/20 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-white/60 text-sm">
-              © 2024 Abu. All rights reserved.
+              © 2024 Abubakar. All rights reserved.
             </p>
-            <p className="text-white/60 text-sm flex items-center gap-1">
-              Made with <Heart className="h-4 w-4 fill-red-500 text-red-500" /> for creative minds
-            </p>
+           
           </div>
         </div>
 
@@ -127,7 +125,7 @@ const Footer = () => {
               onClick={handleEmail}
               size="lg"
               variant="outline"
-              className="border-white text-white hover:bg-white hover:text-primary"
+              className="border-white text-blue-500 hover:bg-white hover:text-primary"
             >
               <Mail className="mr-2 h-5 w-5" />
               Send Email
